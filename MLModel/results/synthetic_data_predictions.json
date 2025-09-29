@@ -1,0 +1,3928 @@
+[
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.72,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.86,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.65,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.59,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.7,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.64,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.95,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.83,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.23,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.24,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.16,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.36,
+        "risk_level": "Medium"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.67,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.69,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.93,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.36,
+        "risk_level": "Medium"
+      },
+      "typhoid": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.65,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.88,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.84,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.25,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.83,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.86,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.85,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.85,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.85,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.81,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.64,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.23,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.23,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.16,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.13,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.35,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.01,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.33,
+        "risk_level": "Medium"
+      },
+      "dysentery": {
+        "risk_score": 0.31,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.3,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.3,
+        "risk_level": "Medium"
+      },
+      "dysentery": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.27,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.23,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.24,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.01,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.34,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.13,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.24,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.24,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.95,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.72,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.92,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.81,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.29,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.31,
+        "risk_level": "Medium"
+      },
+      "dysentery": {
+        "risk_score": 0.31,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.84,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.68,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.93,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.95,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.78,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.64,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.76,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.7,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.72,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.76,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.25,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.11,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.11,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.33,
+        "risk_level": "Medium"
+      },
+      "typhoid": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.35,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.29,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "HIGH",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.68,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.56,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.47,
+        "risk_level": "Medium"
+      },
+      "dysentery": {
+        "risk_score": 0.46,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.5,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.29,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.11,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.38,
+        "risk_level": "Medium"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.74,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.88,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.8,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.61,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.57,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.76,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.51,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.73,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.88,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.73,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.6,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.7,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.62,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.66,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.67,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.88,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.6,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.55,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.13,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.59,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.8,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.47,
+        "risk_level": "Medium"
+      },
+      "dysentery": {
+        "risk_score": 0.79,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.57,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.25,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.01,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.24,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.01,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.65,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.77,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.16,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.3,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.13,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.7,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.45,
+        "risk_level": "Medium"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.7,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.45,
+        "risk_level": "Medium"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.33,
+        "risk_level": "Medium"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.27,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.9,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.91,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.67,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.55,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.77,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.68,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.63,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.5,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.13,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.24,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.36,
+        "risk_level": "Medium"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.77,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.73,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.97,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.71,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 1.0,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.5,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.89,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.52,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.86,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.71,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.45,
+        "risk_level": "Medium"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.64,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.81,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.63,
+        "risk_level": "High"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "diarrhea",
+        "message": "High risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.78,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.68,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.73,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.15,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.31,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.31,
+        "risk_level": "Medium"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.76,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.69,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.6,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.81,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.23,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.01,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.21,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.33,
+        "risk_level": "Medium"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.01,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.25,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.2,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.07,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.23,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.97,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 1.0,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 1.0,
+        "risk_level": "Critical"
+      },
+      "dysentery": {
+        "risk_score": 0.86,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.95,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "hepatitis_a",
+        "message": "Critical risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.22,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.88,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.74,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.59,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.77,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.75,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.13,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.19,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.68,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.57,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.53,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.77,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.84,
+        "risk_level": "Critical"
+      },
+      "typhoid": {
+        "risk_score": 0.65,
+        "risk_level": "High"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.61,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.57,
+        "risk_level": "High"
+      },
+      "diarrhea": {
+        "risk_score": 0.7,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "critical",
+        "disease": "cholera",
+        "message": "Critical risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "typhoid",
+        "message": "High risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "dysentery",
+        "message": "High risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.16,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.08,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.09,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.28,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.06,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "CRITICAL",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.69,
+        "risk_level": "High"
+      },
+      "typhoid": {
+        "risk_score": 0.79,
+        "risk_level": "Critical"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.64,
+        "risk_level": "High"
+      },
+      "dysentery": {
+        "risk_score": 0.73,
+        "risk_level": "Critical"
+      },
+      "diarrhea": {
+        "risk_score": 0.82,
+        "risk_level": "Critical"
+      }
+    },
+    "alerts": [
+      {
+        "severity": "high",
+        "disease": "cholera",
+        "message": "High risk of cholera detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "typhoid",
+        "message": "Critical risk of typhoid detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "high",
+        "disease": "hepatitis_a",
+        "message": "High risk of hepatitis_a detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "dysentery",
+        "message": "Critical risk of dysentery detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      },
+      {
+        "severity": "critical",
+        "disease": "diarrhea",
+        "message": "Critical risk of diarrhea detected",
+        "recommended_actions": [
+          "Increase water quality monitoring",
+          "Consider public health advisory"
+        ]
+      }
+    ]
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.18,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "MEDIUM",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.1,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.31,
+        "risk_level": "Medium"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.17,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.16,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.04,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.26,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  },
+  {
+    "overall_risk": "LOW",
+    "disease_risks": {
+      "cholera": {
+        "risk_score": 0.03,
+        "risk_level": "Low"
+      },
+      "typhoid": {
+        "risk_score": 0.11,
+        "risk_level": "Low"
+      },
+      "hepatitis_a": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "dysentery": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      },
+      "diarrhea": {
+        "risk_score": 0.0,
+        "risk_level": "Low"
+      }
+    },
+    "alerts": []
+  }
+]

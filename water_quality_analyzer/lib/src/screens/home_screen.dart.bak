@@ -1,0 +1,473 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../providers/water_quality_provider.dart';
+import '../models/water_quality_parameters.dart';
+import '../models/risk_assessment.dart';
+import '../widgets/animated_parameter_gauge.dart';
+import '../widgets/glass_container.dart';
+
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SafeArea(
+        child: Consumer<WaterQualityProvider>(
+          builder: (context, provider, child) {
+            final assessment = provider.currentAssessment;
+
+            return SingleChildScrollView(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Text(
+                            'Good Morning',
+                            style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(
+                            'Today, ${DateTime.now().day} ${_getMonth(DateTime.now().month)} ${DateTime.now().year}',
+                            style: Theme.of(context).textTheme.bodyMedium,
+                          ),
+                        ],
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.notifications_outlined),
+                        onPressed: () {
+                          // Navigate to notifications
+                        },
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 24),
+                  if (assessment != null) ...[
+                    Card(
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text(
+                              'Water Parameters',
+                              style: TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(height: 16),
+                            GridView.builder(
+                              shrinkWrap: true,
+                              physics: const NeverScrollableScrollPhysics(),
+                              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 2,
+                                mainAxisSpacing: 16,
+                                crossAxisSpacing: 16,
+                                childAspectRatio: 1.1,
+                              ),
+                              itemCount: 6,
+                              itemBuilder: (context, index) {
+                                final parameters = provider.currentParameters;
+                                if (parameters == null) return const SizedBox();
+                                
+                                return GlassContainer(
+                                  child: _buildGauge(index, parameters),
+                                );
+                              },
+                            ),
+                                  AnimatedParameterGauge(
+                                    title: 'pH Level',
+                                    value:
+                                        provider.currentParameters?.pH ?? 7.0,
+                                    minValue: 0,
+                                    maxValue: 14,
+                                    unit: 'pH',
+                                    ranges: const [
+                                      GaugeRange(
+                                          start: 0,
+                                          end: 6.5,
+                                          color: Colors.red),
+                                      GaugeRange(
+                                          start: 6.5,
+                                          end: 7.5,
+                                          color: Colors.green),
+                                      GaugeRange(
+                                          start: 7.5,
+                                          end: 14,
+                                          color: Colors.red),
+                                    ],
+                                  ),
+                                  const SizedBox(width: 16),
+                                  AnimatedParameterGauge(
+                                    title: 'Turbidity',
+                                    value:
+                                        provider.currentParameters?.turbidity ??
+                                            0,
+                                    minValue: 0,
+                                    maxValue: 10,
+                                    unit: 'NTU',
+                                    ranges: const [
+                                      GaugeRange(
+                                          start: 0,
+                                          end: 5,
+                                          color: Colors.green),
+                                      GaugeRange(
+                                          start: 5,
+                                          end: 7,
+                                          color: Colors.orange),
+                                      GaugeRange(
+                                          start: 7, end: 10, color: Colors.red),
+                                    ],
+                                  ),
+                                  const SizedBox(width: 16),
+                                  AnimatedParameterGauge(
+                                    title: 'Temperature',
+                                    value: provider
+                                            .currentParameters?.temperature ??
+                                        25,
+                                    minValue: 0,
+                                    maxValue: 50,
+                                    unit: '°C',
+                                    ranges: const [
+                                      GaugeRange(
+                                          start: 0,
+                                          end: 10,
+                                          color: Colors.blue),
+                                      GaugeRange(
+                                          start: 10,
+                                          end: 35,
+                                          color: Colors.green),
+                                      GaugeRange(
+                                          start: 35,
+                                          end: 50,
+                                          color: Colors.red),
+                                    ],
+                                  ),
+                                  const SizedBox(width: 16),
+                                  AnimatedParameterGauge(
+                                    title: 'Dissolved O₂',
+                                    value: provider.currentParameters
+                                            ?.dissolvedOxygen ??
+                                        0,
+                                    minValue: 0,
+                                    maxValue: 15,
+                                    unit: 'mg/L',
+                                    ranges: const [
+                                      GaugeRange(
+                                          start: 0, end: 4, color: Colors.red),
+                                      GaugeRange(
+                                          start: 4,
+                                          end: 8,
+                                          color: Colors.orange),
+                                      GaugeRange(
+                                          start: 8,
+                                          end: 15,
+                                          color: Colors.green),
+                                    ],
+                                  ),
+                                  const SizedBox(width: 16),
+                                  AnimatedParameterGauge(
+                                    title: 'Nitrates',
+                                    value:
+                                        provider.currentParameters?.nitrates ??
+                                            0,
+                                    minValue: 0,
+                                    maxValue: 50,
+                                    unit: 'mg/L',
+                                    ranges: const [
+                                      GaugeRange(
+                                          start: 0,
+                                          end: 10,
+                                          color: Colors.green),
+                                      GaugeRange(
+                                          start: 10,
+                                          end: 25,
+                                          color: Colors.orange),
+                                      GaugeRange(
+                                          start: 25,
+                                          end: 50,
+                                          color: Colors.red),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 24),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  'Risk Assessment',
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .headlineMedium,
+                                ),
+                                _buildRiskLevelChip(
+                                    assessment.getOverallRiskLevel()),
+                              ],
+                            ),
+                            const SizedBox(height: 24),
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: MetricCard(
+                                    title: 'Cholera Risk',
+                                    value:
+                                        '${(assessment.choleraRiskScore * 100).toInt()}',
+                                    unit: '%',
+                                    icon: Icons.coronavirus_outlined,
+                                    iconColor: AppTheme.chartPurple,
+                                  ),
+                                ),
+                                const SizedBox(width: 16),
+                                Expanded(
+                                  child: MetricCard(
+                                    title: 'Typhoid Risk',
+                                    value:
+                                        '${(assessment.typhoidRiskScore * 100).toInt()}',
+                                    unit: '%',
+                                    icon: Icons.sick_outlined,
+                                    iconColor: AppTheme.chartBlue,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 16),
+                            MetricCard(
+                              title: 'Hepatitis A Risk',
+                              value:
+                                  '${(assessment.hepatitisARiskScore * 100).toInt()}',
+                              unit: '%',
+                              icon: Icons.medical_services_outlined,
+                              iconColor: AppTheme.chartGrey,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 24),
+                    RiskBarChart(
+                      title: 'Risk Factors Analysis',
+                      data: [
+                        assessment.contributingFactors[
+                                'Biological Contamination'] ??
+                            0,
+                        assessment.contributingFactors['Chemical Parameters'] ??
+                            0,
+                        assessment.contributingFactors['Physical Conditions'] ??
+                            0,
+                      ],
+                      labels: const [
+                        'Biological',
+                        'Chemical',
+                        'Physical',
+                      ],
+                    ),
+                    const SizedBox(height: 24),
+                    if (assessment.recommendations.isNotEmpty)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Recommendations',
+                                style:
+                                    Theme.of(context).textTheme.headlineMedium,
+                              ),
+                              const SizedBox(height: 16),
+                              ...assessment.recommendations
+                                  .map((rec) => Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                            vertical: 4.0),
+                                        child: Row(
+                                          children: [
+                                            Icon(
+                                              Icons.info_outline,
+                                              color: AppTheme.primaryAccent,
+                                              size: 20,
+                                            ),
+                                            const SizedBox(width: 8),
+                                            Expanded(
+                                              child: Text(
+                                                rec,
+                                                style: Theme.of(context)
+                                                    .textTheme
+                                                    .bodyLarge,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      )),
+                            ],
+                          ),
+                        ),
+                      ),
+                  ] else
+                    const Center(
+                      child: Text(
+                          'No assessment data available. Add new water quality parameters to begin.'),
+                    ),
+                ],
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+
+  String _getMonth(int month) {
+    const months = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December'
+    ];
+    return months[month - 1];
+  }
+
+  Widget _buildGauge(int index, WaterQualityParameters parameters) {
+    switch (index) {
+      case 0:
+        return AnimatedParameterGauge(
+          title: 'Temperature',
+          value: parameters.temperature,
+          minValue: 0,
+          maxValue: 50,
+          unit: '°C',
+          ranges: const [
+            GaugeRange(start: 0, end: 10, color: Colors.blue),
+            GaugeRange(start: 10, end: 35, color: Colors.green),
+            GaugeRange(start: 35, end: 50, color: Colors.red),
+          ],
+        );
+      case 1:
+        return AnimatedParameterGauge(
+          title: 'pH Level',
+          value: parameters.pH,
+          minValue: 0,
+          maxValue: 14,
+          unit: 'pH',
+          ranges: const [
+            GaugeRange(start: 0, end: 6.5, color: Colors.red),
+            GaugeRange(start: 6.5, end: 7.5, color: Colors.green),
+            GaugeRange(start: 7.5, end: 14, color: Colors.red),
+          ],
+        );
+      case 2:
+        return AnimatedParameterGauge(
+          title: 'TDS',
+          value: parameters.tds ?? 0,
+          minValue: 0,
+          maxValue: 1000,
+          unit: 'ppm',
+          ranges: const [
+            GaugeRange(start: 0, end: 300, color: Colors.green),
+            GaugeRange(start: 300, end: 600, color: Colors.orange),
+            GaugeRange(start: 600, end: 1000, color: Colors.red),
+          ],
+        );
+      case 3:
+        return AnimatedParameterGauge(
+          title: 'Dissolved O₂',
+          value: parameters.dissolvedOxygen,
+          minValue: 0,
+          maxValue: 15,
+          unit: 'mg/L',
+          ranges: const [
+            GaugeRange(start: 0, end: 4, color: Colors.red),
+            GaugeRange(start: 4, end: 8, color: Colors.orange),
+            GaugeRange(start: 8, end: 15, color: Colors.green),
+          ],
+        );
+      case 4:
+        return AnimatedParameterGauge(
+          title: 'Nitrates',
+          value: parameters.nitrates,
+          minValue: 0,
+          maxValue: 50,
+          unit: 'mg/L',
+          ranges: const [
+            GaugeRange(start: 0, end: 10, color: Colors.green),
+            GaugeRange(start: 10, end: 25, color: Colors.orange),
+            GaugeRange(start: 25, end: 50, color: Colors.red),
+          ],
+        );
+      case 5:
+        return AnimatedParameterGauge(
+          title: 'Salinity',
+          value: parameters.salinity,
+          minValue: 0,
+          maxValue: 1000,
+          unit: 'mg/L',
+          ranges: const [
+            GaugeRange(start: 0, end: 400, color: Colors.green),
+            GaugeRange(start: 400, end: 700, color: Colors.orange),
+            GaugeRange(start: 700, end: 1000, color: Colors.red),
+          ],
+        );
+      default:
+        return const SizedBox();
+    }
+  }
+
+  Widget _buildRiskLevelChip(RiskLevel level) {
+    late final Color color;
+    late final String text;
+
+    switch (level) {
+      case RiskLevel.low:
+        color = Colors.green;
+        text = 'Low Risk';
+      case RiskLevel.moderate:
+        color = Colors.orange;
+        text = 'Moderate Risk';
+      case RiskLevel.high:
+        color = Colors.red;
+        text = 'High Risk';
+      case RiskLevel.severe:
+        color = Colors.purple;
+        text = 'Severe Risk';
+    }
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Text(
+        text,
+        style: TextStyle(
+          color: color,
+          fontWeight: FontWeight.w600,
+          fontSize: 12,
+        ),
+      ),
+    );
+  }
+}
