@@ -10,7 +10,9 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 
 # Configure API key
-api_key = os.getenv("GEMINI_API_KEY", "AIzaSyDAb6lZo9wLV0ntHKrQIusl0k-NLktiMcg")
+api_key = os.getenv("GEMINI_API_KEY")
+if not api_key:
+    raise ValueError("GEMINI_API_KEY environment variable is not set")
 genai.configure(api_key=api_key)
 
 # Create FastAPI app
