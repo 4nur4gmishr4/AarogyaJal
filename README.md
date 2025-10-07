@@ -6,14 +6,16 @@
 
 [![Smart India Hackathon 2025](https://img.shields.io/badge/SIH%202025-Winner%20Track-gold?style=flat-square)](https://sih.gov.in/)
 [![Problem Statement](https://img.shields.io/badge/Problem-SIH25001-green?style=flat-square)](https://sih.gov.in/)
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.72+-61DAFB?style=flat-square&logo=react)](https://reactnative.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![flutter](https://docs.flutter.dev/)
+
+
 
 **An AI-driven IoT solution for waterborne disease prevention in rural Northeast India**
 
-[youtube video](#demo) • [📱 Mobile App](https://github.com/4nur4gmishr4/AarogyaJal/releases) •  [📖 Documentation](#documentation) • 
+ [📱 Mobile App](https://github.com/4nur4gmishr4/AarogyaJal/releases) •  [📖 Documentation](#documentation) • 
 
 </div>
 
