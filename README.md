@@ -13,7 +13,7 @@
 
 **An AI-driven IoT solution for waterborne disease prevention in rural Northeast India**
 
-[youtube video](#demo) • [📱 Mobile App](#mobile-app) •  [📖 Documentation](#documentation) • 
+[youtube video](#demo) • [📱 Mobile App](#https://github.com/4nur4gmishr4/AarogyaJal/releases) •  [📖 Documentation](#documentation) • 
 
 </div>
 
@@ -139,137 +139,13 @@ graph TD
 - Docker (optional)
 ```
 
-### 1. Clone Repository
 
-```bash
-git clone https://github.com/your-org/arogya-jal.git
-cd arogya-jal
-```
-
-### 2. Backend Setup
-
-```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set environment variables
-cp .env.example .env
-# Edit .env with your configuration
-
-# Run database migrations
-alembic upgrade head
-
-# Start backend server
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
-
-### 3. Frontend Setup
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-# For mobile app
-cd mobile-app
-npm install
-npx react-native run-android  # or run-ios
-```
-
-### 4. IoT Simulator Setup
-
-```bash
-# Navigate to IoT directory
-cd iot-simulator
-
-# Install Arduino dependencies
-# Flash firmware to ESP32 devices
-# Configure sensor calibration
-```
 
 ## 📊 API Documentation
 
-### Core Endpoints
+### Core Endpoin
 
-#### **Water Quality Data**
-```http
-POST /api/v1/sensor-data
-Content-Type: application/json
 
-{
-  "sensor_id": "SENSOR_001",
-  "location": {
-    "latitude": 26.1445,
-    "longitude": 91.7362
-  },
-  "measurements": {
-    "ph": 7.2,
-    "turbidity": 15.5,
-    "temperature": 25.3,
-    "dissolved_oxygen": 8.1,
-    "rainfall": 2.3
-  },
-  "timestamp": "2025-10-05T17:30:00Z"
-}
-```
-
-#### **Risk Assessment**
-```http
-GET /api/v1/risk-assessment/{sensor_id}
-Response: 200 OK
-
-{
-  "sensor_id": "SENSOR_001",
-  "risk_level": "MEDIUM",
-  "risk_score": 0.65,
-  "ecoli_estimate": 250,
-  "confidence_interval": "±15%",
-  "recommendations": [
-    "Enhanced monitoring recommended",
-    "Consider water treatment if trend continues"
-  ],
-  "alert_sent": true,
-  "timestamp": "2025-10-05T17:30:05Z"
-}
-```
-
-#### **Alert Management**
-```http
-POST /api/v1/alerts/send
-Content-Type: application/json
-
-{
-  "risk_level": "HIGH",
-  "affected_areas": ["Village_A", "Village_B"],
-  "message": "High contamination risk detected. Use alternative water sources.",
-  "channels": ["sms", "app", "email"],
-  "recipients": {
-    "asha_workers": ["9876543210", "9876543211"],
-    "health_officials": ["admin@health.gov.in"]
-  }
-}
-```
-
-### Authentication
-
-All API requests require authentication via JWT tokens:
-
-```bash
-# Get access token
-curl -X POST "http://localhost:8000/api/v1/auth/login" \
-  -H "Content-Type: application/json" \
-  -d '{"username": "asha_worker", "password": "secure_password"}'
-
-# Use token in requests
-curl -H "Authorization: Bearer <your_token>" \
-  "http://localhost:8000/api/v1/sensor-data"
-```
 
 ## 🧪 Machine Learning Models
 
@@ -339,55 +215,6 @@ def estimate_ecoli(ph, temperature, turbidity, rainfall, season_factor):
 |-----------|---------|-----------|----------|
 | ![Dashboard](screenshots/dashboard.png) | ![Alerts](screenshots/alerts.png) | ![Analytics](screenshots/analytics.png) | ![Settings](screenshots/settings.png) |
 
-## 🏥 Integration with Health Systems
-
-### ASHA Worker Workflow
-1. **Morning Check**: Review overnight alerts and water quality status
-2. **Community Rounds**: Use mobile app to log health observations
-3. **Alert Response**: Coordinate community response to contamination warnings
-4. **Data Collection**: Record water treatment interventions and outcomes
-5. **Reporting**: Submit daily summaries through mobile interface
-
-### Government Integration
-- **National Digital Health Mission (NDHM)** compatibility
-- **Jal Jeevan Mission** water quality monitoring integration
-- **State Health Department** surveillance system APIs
-- **WHO reporting standards** compliance
-
-## 🔒 Security & Privacy
-
-### Data Protection
-- **End-to-End Encryption**: AES-256 encryption for all data transmission
-- **Data Minimization**: Collection of only essential health-related information
-- **GDPR Compliance**: Full compliance with international privacy standards
-- **Local Data Storage**: Sensitive data processed locally when possible
-
-### Access Control
-- **Role-Based Permissions**: ASHA workers, health officials, administrators
-- **Multi-Factor Authentication**: Required for all administrative access
-- **Audit Logging**: Complete tracking of all system access and modifications
-- **Regular Security Audits**: Quarterly penetration testing and vulnerability assessments
-
-## 🧪 Testing
-
-### Run Tests
-
-```bash
-# Backend tests
-pytest tests/ -v --coverage
-
-# Frontend tests
-npm test
-
-# E2E tests
-cypress run
-
-# IoT simulation tests
-cd iot-simulator && python test_sensors.py
-
-# Load testing
-locust -f tests/load_test.py --host=http://localhost:8000
-```
 
 ### Test Coverage
 
@@ -398,20 +225,7 @@ locust -f tests/load_test.py --host=http://localhost:8000
 
 ## 📈 Deployment
 
-### Production Deployment
 
-```bash
-# Using Docker Compose
-docker-compose -f docker-compose.prod.yml up -d
-
-# Using Kubernetes
-kubectl apply -f k8s/
-
-# Environment setup
-export DB_HOST=your-db-host
-export REDIS_URL=your-redis-url
-export JWT_SECRET=your-jwt-secret
-```
 
 ### Deployment Checklist
 
@@ -515,62 +329,15 @@ arogya-jal/
 - [ ] International recognition
 - [ ] Replication framework for other regions
 
-## 🤝 Contributing
 
-We welcome contributions from developers, healthcare professionals, and domain experts! Here's how you can help:
 
-### Development Contributions
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and add tests
-4. **Commit your changes**: `git commit -m 'Add amazing feature'`
-5. **Push to the branch**: `git push origin feature/amazing-feature`
-6. **Open a Pull Request**
-
-### Contribution Guidelines
-
-- Follow existing code style and conventions
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting PR
-- Write clear commit messages
-
-### Areas Needing Help
-
-- 🧠 **Machine Learning**: Model optimization and new algorithm development
-- 📱 **Mobile Development**: iOS/Android feature enhancements
-- 🔧 **IoT Hardware**: Sensor calibration and firmware optimization
-- 📊 **Data Science**: Analytics and visualization improvements
-- 🌐 **Localization**: Translation to regional languages
-- 📚 **Documentation**: User guides and technical documentation
-- 🧪 **Testing**: Test coverage improvement and QA
-
-## 👥 Team
-
-### Core Development Team
-
-| Name | Role | Expertise | Contact |
-|------|------|-----------|---------|
-| **Lead Developer** | Full-Stack & AI | Python, React, ML | [@lead-dev](https://github.com/lead-dev) |
-| **IoT Specialist** | Hardware & Firmware | ESP32, Arduino, Sensors | [@iot-expert](https://github.com/iot-expert) |
-| **Mobile Developer** | React Native | iOS/Android Development | [@mobile-dev](https://github.com/mobile-dev) |
-| **Data Scientist** | ML & Analytics | TensorFlow, Statistics | [@data-scientist](https://github.com/data-scientist) |
-| **Health Expert** | Domain Knowledge | Public Health, Rural Healthcare | [@health-expert](https://github.com/health-expert) |
 
 ### Advisory Board
 
 - **Dr. Healthcare Expert** - Public Health Specialist
 - **Prof. AI Research** - Machine Learning Researcher  
 - **ASHA Worker Representative** - Community Health Expert
-- **Government Liaison** - Health Department Coordinator
-
-## 🏆 Awards & Recognition
-
-- 🥇 **Smart India Hackathon 2025 Winner** - MedTech/HealthTech Category
-- 🏅 **Best Innovation Award** - Rural Healthcare Solutions
-- 🌟 **Community Impact Recognition** - Digital Health Initiative
-- 📰 **Featured in**: The Hindu, Times of India, Indian Express
+- **Government Liaison** - Health Department Coordinato
 
 ## 📄 License
 
@@ -582,23 +349,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **FastAPI**: MIT License
 - **PostgreSQL**: PostgreSQL License
 
-## 📞 Contact & Support
-
-### Project Inquiries
-- **Email**: team@arogya-jal.org
-- **Phone**: +91-98765-43210
-- **Website**: https://arogya-jal.org
-
-### Technical Support
-- **Documentation**: https://docs.arogya-jal.org
-- **GitHub Issues**: https://github.com/your-org/arogya-jal/issues
-- **Discord Community**: https://discord.gg/arogya-jal
-- **Stack Overflow**: Tag `arogya-jal`
-
-### Social Media
-- **Twitter**: [@ArogyaJal](https://twitter.com/arogyajal)
-- **LinkedIn**: [Arogya Jal Project](https://linkedin.com/company/arogya-jal)
-- **YouTube**: [Demo Videos](https://youtube.com/c/arogyajal)
 
 ---
 
@@ -616,13 +366,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🔗 Quick Links
 
-- [📖 Full Documentation](https://docs.arogya-jal.org)
-- [🎥 Demo Video](https://youtube.com/watch?v=demo-video)
-- [📊 Live Dashboard](https://dashboard.arogya-jal.org)
-- [📱 Download Mobile App](https://play.google.com/store/apps/arogya-jal)
-- [📋 Research Paper](https://research.arogya-jal.org/paper.pdf)
-- [🏥 Healthcare Integration Guide](https://docs.arogya-jal.org/healthcare)
 
 **Last Updated**: October 5, 2025 | **Version**: 1.0.0 | **Status**: Active Development
