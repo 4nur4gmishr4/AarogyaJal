@@ -13,7 +13,7 @@
 
 **An AI-driven IoT solution for waterborne disease prevention in rural Northeast India**
 
-[🚀 Live Demo](#demo) • [📱 Mobile App](#mobile-app) • [📊 Dashboard](#dashboard) • [📖 Documentation](#documentation) • [🤝 Contributing](#contributing)
+[youtube video](#demo) • [📱 Mobile App](#mobile-app) •  [📖 Documentation](#documentation) • 
 
 </div>
 
