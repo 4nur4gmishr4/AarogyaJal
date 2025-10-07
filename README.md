@@ -13,7 +13,7 @@
 
 **An AI-driven IoT solution for waterborne disease prevention in rural Northeast India**
 
-[youtube video](#demo) • [📱 Mobile App](#https://github.com/4nur4gmishr4/AarogyaJal/releases) •  [📖 Documentation](#documentation) • 
+[youtube video](#demo) • [📱 Mobile App](https://github.com/4nur4gmishr4/AarogyaJal/releases) •  [📖 Documentation](#documentation) • 
 
 </div>
 
