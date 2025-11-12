@@ -341,15 +341,6 @@ arogya-jal/
 - **ASHA Worker Representative** - Community Health Expert
 - **Government Liaison** - Health Department Coordinato
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### Open Source Components
-- **TensorFlow**: Apache 2.0 License
-- **React Native**: MIT License  
-- **FastAPI**: MIT License
-- **PostgreSQL**: PostgreSQL License
 
 
 ---
