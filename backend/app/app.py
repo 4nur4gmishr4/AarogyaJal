@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
+from models import SmartMoneyModel, User, UserRole, get_smart_money_instance
 
 # Load environment variables
 load_dotenv()
@@ -41,6 +42,9 @@ Focus Areas:
 # Model configuration
 MODEL = "gemini-2.5-flash"
 
+# Initialize SmartMoney model with anuraga as admin
+smart_money = get_smart_money_instance()
+
 # Request models
 class ChatRequest(BaseModel):
     query: str
@@ -53,6 +57,84 @@ class AnalysisRequest(BaseModel):
 @app.get("/")
 async def root():
     return {"message": "AarogyaJal Gemini API Service"}
+
+# SmartMoney Model Endpoints
+@app.get("/smartmoney")
+async def get_smart_money_info():
+    """Get SmartMoney model information including admins"""
+    return {
+        "name": smart_money.name,
+        "description": smart_money.description,
+        "admins": smart_money.admins,
+        "total_users": len(smart_money.users),
+        "created_at": smart_money.created_at.isoformat(),
+        "updated_at": smart_money.updated_at.isoformat()
+    }
+
+@app.get("/smartmoney/admins")
+async def get_admins():
+    """Get list of admins in SmartMoney model"""
+    return {"admins": smart_money.admins}
+
+@app.get("/smartmoney/users")
+async def get_users():
+    """Get all users in SmartMoney model"""
+    return {
+        "users": [
+            {
+                "username": user.username,
+                "email": user.email,
+                "role": user.role,
+                "is_active": user.is_active,
+                "created_at": user.created_at.isoformat() if user.created_at else None
+            }
+            for user in smart_money.users
+        ]
+    }
+
+@app.get("/smartmoney/users/{username}")
+async def get_user(username: str):
+    """Get specific user information"""
+    user = smart_money.get_user(username)
+    if not user:
+        raise HTTPException(status_code=404, detail=f"User '{username}' not found")
+    
+    return {
+        "username": user.username,
+        "email": user.email,
+        "role": user.role,
+        "is_admin": smart_money.is_admin(user.username),
+        "is_active": user.is_active,
+        "created_at": user.created_at.isoformat() if user.created_at else None
+    }
+
+@app.post("/smartmoney/users")
+async def add_user(user: User):
+    """Add a new user to SmartMoney model"""
+    if smart_money.add_user(user):
+        return {
+            "message": "User added successfully",
+            "user": {
+                "username": user.username,
+                "role": user.role,
+                "is_admin": smart_money.is_admin(user.username)
+            }
+        }
+    raise HTTPException(status_code=400, detail="User already exists")
+
+@app.post("/smartmoney/admins/{username}")
+async def add_admin(username: str):
+    """Add a user as admin in SmartMoney model"""
+    if smart_money.add_admin(username):
+        # Update user role if user exists
+        user = smart_money.get_user(username)
+        if user:
+            user.role = UserRole.ADMIN
+        return {
+            "message": f"'{username}' added as admin successfully",
+            "admins": smart_money.admins
+        }
+    raise HTTPException(status_code=400, detail=f"'{username}' is already an admin")
 
 @app.post("/chat")
 async def chat(request: ChatRequest):
